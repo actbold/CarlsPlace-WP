@@ -1,0 +1,18 @@
+.page-template-page-faq {
+
+    /* Import Hero Styles */
+    @import "parts/hero";
+    
+    /* Import FAQ'S Styles */
+    @import "parts/faqs";
+
+    /* Import Loader Styles */
+    @import "parts/loader";
+
+    /* Fix Bootstrap Container */
+    .container {
+        @include breakpoint($small){
+        padding: 0 20px;
+        }
+    }
+}

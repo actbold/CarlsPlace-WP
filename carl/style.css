@@ -1,0 +1,21 @@
+/*
+	Theme Name: Carl's Place
+	Theme URI: https://www.carlofet.com
+	Description: Custom Wordpress THeme
+	Version: 1.1
+	Author: ActBold
+	Author URI: https://www.actbold.com/
+	Tags: 
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+.step-item:nth-child(7) img {
+    padding-bottom: 7px !important;
+}
+.step-item img {
+	max-width: 10px !important;
+}
+
+.header-section {
+    border: 13px dashed green!important;
+}

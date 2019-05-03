@@ -1,0 +1,65 @@
+.hero {
+    position:relative;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/calculator/banner.png");
+    .hero-content {
+        display:block; 
+        box-sizing:border-box;
+        width: 100%;
+        padding-top: 150px;
+        text-align: center;
+        color: $white;
+        h1 {
+            text-align: center;
+            span {
+                font-family: $bold-font;
+            }
+        }
+    }
+  
+  .link-container {
+    text-align: center;
+    margin-top: 30px;
+  
+    .waypoint {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  /* Hero Breadcrumbs */
+  .breadcrumb {
+    background: none;
+    padding-top: 7px;
+    margin-bottom: 0;
+    padding-left: 0;
+  
+    .breadcrumb-item {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      transition: $trans;
+      &.active {
+        opacity: 0.7;
+        text-transform: capitalize;
+      }
+    }
+  }
+  
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: url("../img/category-a/angle-right.png");
+    padding: 0 14px;
+    top: -2px;
+    position: relative;
+  }
+  
+  .no-touch {
+    .breadcrumb-item:hover {
+      opacity: 0.5;
+    }
+  }
+}

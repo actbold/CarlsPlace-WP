@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="jquery-equalheights">jquery-equalheights</h1>
+
+<p>Equal heights jQuery Plugin by Gijs Oliemans, Status201 <a href="http://status201.nl">Web Development</a></p>
+
+<h2 id="whatdoesitdo">What does it do?</h2>
+
+<p>Little jQuery plugin to &#8220;vertically align elements&#8221; by stretching their height to match the tallest.
+Only elements that live exactly at the same height in the document will be maximised to the same height.
+This way 2 rows can vertically align nicely while having different heights.</p>
+
+<h2 id="install">Install</h2>
+
+<p>Download either the <a href="https://github.com/status201/jquery-equalheights/blob/master/jquery.equalheights.min.js">production version</a> or the <a href="https://github.com/status201/jquery-equalheights/blob/master/jquery.equalheights.js">development version</a> of jquery-equalheights.</p>
+
+<p>In your web page:</p>
+
+<pre><code class="html"><!-- include jQuery -->
+&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js&quot;&gt;&lt;/script&gt;
+<!-- include jQuery Equal Heights -->
+&lt;script src=&quot;http://path/to/your/copy/of/jquery.equalheights.min.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+$( document ).ready(function() {
+    $('.elements-with-different-heights').equalHeights();
+});
+&lt;/script&gt;
+</code></pre>
+
+<h2 id="bower">Bower</h2>
+
+<p>To install jquery-equalheights via Bower:</p>
+
+<pre><code>bower install jquery-equal-heights
+</code></pre>
+
+<h2 id="options">Options</h2>
+
+<table>
+<colgroup>
+<col style="text-align:left;"/>
+<col style="text-align:center;"/>
+<col style="text-align:right;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:left;"> Option  </th>
+	<th style="text-align:center;"> Possible values </th>
+	<th style="text-align:right;"> Default </th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:left;"> onLoad  </td>
+	<td style="text-align:center;"> true / false </td>
+	<td style="text-align:right;"> true </td>
+</tr>
+<tr>
+	<td style="text-align:left;"> onResize  </td>
+	<td style="text-align:center;"> true / false </td>
+	<td style="text-align:right;"> true </td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="examples">Examples</h2>
+
+<pre><code class="javascript">$( document ).ready(function() {
+
+    // make all list items with class category the same height
+    $('li.category').equalHeights();
+  
+    // make different elements the same height
+    $('p.intro, img.thumbnail').equalHeights();
+  
+    // only resize once now (not on window.resize and window.load) 
+    $('.nav button').equalHeights({
+        onResize: false,
+        onLoad: false
+    });
+});
+</code></pre>
+
+<h2 id="moreinfo">More info</h2>
+
+<p>More info at: http://dev201.nl/equal-height-jquery-plugin/</p>
+
+</body>
+</html>
+

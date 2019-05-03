@@ -1,0 +1,129 @@
+/* Header */
+.main-header {
+    position: relative;
+    background: $white;
+    border: 1px solid $border;
+    z-index: 9999;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* Header Layout */
+.header-layout {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: $white;
+    justify-content: space-between;
+
+    @include breakpoint($small) {
+        height: 60px;
+    }
+}
+
+/* Header Layout */
+.header-section {
+    position: relative;;
+    display: flex;
+    width: auto;
+    height: auto;
+    background: $white;
+
+    @include breakpoint($small) {
+        width: auto;
+        height: auto;
+    }
+
+    &.header-section--left {
+        flex: 1;
+        justify-content: flex-start;
+    }
+}
+
+/* Box Styles */
+.box {
+    display: block;
+    box-sizing: border-box;
+    height: 80px;
+    width: auto;
+    padding: 0 20px;
+    border-left: 1px solid $border;
+
+    .toggle-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        line-height: 80px;
+        margin: auto;
+
+        svg {
+            display: block;
+            width: 20px;
+            height: 20px;
+            stroke: $blue2;
+        }
+    }
+
+    &.box--navigation-toggle {
+        display: none;
+        border-right: 1px solid $border;
+        width: 55px;
+        .toggle-link {
+            svg {
+                width: 30px;
+                height: 30px;
+            } 
+        }
+        #close-mobile-navigation {
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        @include breakpoint($small) {
+            display: block;
+        }
+    }
+
+    @include breakpoint($large) {
+        width: 80px;
+    }
+
+    @include breakpoint($small) {
+        height: 60px;
+    }
+
+    @include breakpoint($mobile) {
+        width: 55px;
+        padding: 0 10px;
+        height: auto;
+
+        .toggle-link {
+            line-height: auto;
+        }
+    }
+}
+
+/* Import Top Bar Styles */
+@import "parts/top-bar";
+/* Import Logo Styles */
+@import "parts/logo";
+/* Import Navigation Styles */
+@import "parts/navigation";
+@import "parts/dropdown-navigation";
+/* Import Search Styles */
+@import "parts/search";
+/* Import Account Styles */
+@import "parts/account";
+/* Import Cart Styles */
+@import "parts/cart";

@@ -1,0 +1,7 @@
+@import "bourbon";
+
+@include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
+@include font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf);
+@include font-face("light", "../fonts/SourceSansProLight/SourceSansProLight", $file-formats: eot woff ttf);
+@include font-face("regular", "../fonts/SourceSansProRegular/SourceSansProRegular", bold, $file-formats: eot woff ttf);
+@include font-face("bold", "../fonts/SourceSansProBold/SourceSansProBold", bold, $file-formats: eot woff ttf);

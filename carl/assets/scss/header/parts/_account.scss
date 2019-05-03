@@ -1,0 +1,7 @@
+.box--account {
+    display:none;
+    background: $offwhite2;
+    @media  (min-width: 1220px){
+        display: block;
+    }
+}

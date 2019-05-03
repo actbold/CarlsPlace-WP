@@ -1,0 +1,1 @@
+<a class="logo-mobile" href="index.html"><img src="/wp-content/themes/carl/assets/img/home/logo.png" alt="logo"></a>

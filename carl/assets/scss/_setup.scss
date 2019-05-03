@@ -1,0 +1,45 @@
+//CHARSET UTF-8
+@charset "utf-8";
+
+@import "bourbon";
+@import "variables/variables";
+@import "mixins/mixins";
+
+@import "base/base";
+@import "libs/libs";
+
+// IMPORT HEADER STYLES
+@import "header/header";
+
+//Import Main Styles
+@import "main/main";
+
+/* IMPORT FOOTER STYLES */
+@import "footer/footer-styles";
+
+/* Import Default Section Styles */
+@import "default/section-styles";
+
+/* Import Default Page Styles */
+@import "default/page-styles";
+
+/* Import Homepage Styles */
+@import "pages/homepage/homepage-styles";
+
+/* Import Screen Builders Page Styles */
+@import "pages/screen-builders/screen-builders-page-styles";
+
+/* Import Testimonials Page Styles */
+@import "pages/testimonials/testimonials-page-styles";
+
+/* Import FAQ Page Styles */
+@import "pages/faq/faq-page-styles";
+
+/* Import Resources Page Styles */
+@import "pages/resources/resources-page-styles";
+
+/* Import 404 Page Styles */
+@import "pages/404/404-page-styles";
+
+//Import Media
+@import "media/media";

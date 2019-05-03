@@ -1,0 +1,49 @@
+.section--hero {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    .block--title {
+        text-align: center;
+        margin-bottom: 30px;
+        h1 {
+            font-size: 36px;
+            font-weight: 300;
+            color: $blue;
+        }
+    }
+    .block--content {
+        .category-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            button {
+                cursor: pointer;
+                border: 2px solid $border;
+                margin: 5px;
+                outline: none;
+                box-shadow:none;
+                appearance: none;
+                transition: all 0.33s ease;
+                color: $blue2;
+                &.btn--active, &:hover {
+                    background: $blue2;
+                    border-color: $blue2;
+                    color:$white;
+                }
+                &:focus {
+                    outline:none;
+                }
+            }
+            @include breakpoint($small){
+                justify-content: space-between;
+                button {
+                    font-size: 14px;
+                    min-width: 49%;
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}

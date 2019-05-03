@@ -1,0 +1,87 @@
+#search-box {
+    position: absolute;
+    display: none;
+    align-items: stretch;
+    box-sizing: border-box;
+    width: 400px;
+    max-width: 100%;
+    height:100%;
+    right: 135px;
+    z-index: 9999;
+    @include breakpoint($large){
+        right: 240px;
+    }
+    @include breakpoint($small){
+        right: 110px;
+        width: auto;
+    }
+    form {
+        display: flex;
+        box-sizing: border-box;
+        align-items: stretch;
+        height:100%;
+        input {
+            display: block;
+            width: 100%;
+            height: 100%;
+            background: $offwhite;
+            border: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            outline: none;
+            color:$blue2;
+            &:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+        button {
+            display: block;
+            box-sizing: border-box;
+            font-size: 16px;
+            background: $blue2;
+            color: $white;
+            border: none;
+            appearance: none;
+            border-radius: 0px;
+            &:disabled {
+                display:none;
+            }
+        }
+    }
+    &.search-box--active {
+        display: block;
+    }
+    #top-search-autocomplete {
+        position: absolute;
+        margin-top: 2px;
+        background: $white;
+        border: 1px solid $border;
+        border-top: none;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        ul {
+            li {
+                cursor: pointer;
+                display: block;
+                box-sizing: border-box;
+                padding:5px 20px;
+                span {
+                    font-weight: 300;
+                    color: $grey;
+                }
+                &.selected {
+                    span {
+                        color: $blue2;
+                        font-weight: 600;
+                    }
+                }
+                &:hover {
+                    span {
+                        color:$blue2;
+                    }
+                }
+            }
+        }
+    }
+}

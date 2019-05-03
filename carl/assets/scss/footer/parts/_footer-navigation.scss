@@ -1,0 +1,251 @@
+.footer-navigation {
+    ul {
+        li {
+            margin-bottom: 0;
+        }
+    }
+    .menu-layout {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* Menu Block */
+        .menu-block {
+            display: block;
+            width: auto;
+            max-width: 100%;
+            margin-bottom: 40px;
+            min-width: 20%;
+            max-width: 20%;
+            @include breakpoint($medium){
+                min-width: 33%;
+                max-width: 33%;
+                text-align: center;
+            }
+            @include breakpoint($small){
+                min-width: 50%;
+                max-width: 50%;
+                text-align: center;
+            }
+            @include breakpoint($mobile){
+                min-width: 100%;
+                max-width: 100%;
+            }
+            /* Menu Title */
+            .menu-block-title {
+                position:relative;
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+                text-transform: uppercase;
+                span {
+                    color: $white;
+                    font-size: 18px;
+                    font-weight: 400;
+                }
+                @include breakpoint($mobile){
+                    display:flex;
+                    align-items:center;
+                    justify-content: space-between;
+                    background:none;
+                    span {
+                        font-weight: 400;
+                    }
+                    &:after {
+                        content: '';
+                        width: 25px;
+                        height: 25px;
+                        background-size:contain;
+                        background-repeat:no-repeat;
+                        background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIGNsYXNzPSJmZWF0aGVyIGZlYXRoZXItY2hldnJvbi1kb3duIiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik02IDlsNiA2IDYtNiIvPjwvc3ZnPg==);
+                    }
+                }
+            }
+            /* Menu Block Links */
+            .menu-block-links {
+                display: flex;
+                flex-wrap: wrap;
+                ul {
+                    display: block;
+                    margin: 0;
+                    margin-right: 40px;
+                    padding: 0;
+                    li {
+                        position:relative;
+                        display: block;
+                        box-sizing: border-box;
+                        padding: 0;
+                        margin-bottom: 10px;
+                        a {
+                            display: block;
+                            font-size: 16px;
+                            font-weight: 300;
+                            color: $white;
+                        }
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+                    }
+                    @include breakpoint($medium){
+                        margin: 0 auto;
+                        
+                    }
+                    @include breakpoint($mobile){
+                        width: 100%;
+                    }
+                }
+            }
+            /* Small Breakpoint */
+            @include breakpoint($small){
+                width: auto;
+                margin-bottom: 20px;
+            }
+            @include breakpoint($mobile){
+                width: 100%;
+                margin: 0;
+
+                .menu-block-title {
+                    cursor: pointer;
+                    box-sizing: border-box;
+                    padding: 5px 20px;
+                    padding-right: 10px;
+                    margin: 0;
+                    border-bottom: 1px solid darken($blue, 05);
+
+                }
+                .menu-block-links {
+                    display: none;
+                    justify-content: flex-start;
+                    text-align: left;
+                }
+
+            }
+            /* Active Menu Block */
+            /* Active Menu Block */
+            &.menu-block--active {
+                .menu-block-title {
+                    background: $blue2;
+                    border-bottom-color: $border;
+                }
+                @include breakpoint($mobile){
+                    .menu-block-links {
+                        display: flex;
+                        ul {
+                            li {
+                                padding: 5px 20px;
+                                border-bottom: 1px solid $border;
+                                background: $offwhite;
+                                margin: 0;
+                                a {
+                                    font-size: 18px;
+                                    color: $blue;
+                                    &:hover {
+                                        color: $blue2;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            /* Special Menu Block */
+            &.menu-block--special {
+                min-width: 40%;
+                max-width: 40%;
+                @include breakpoint($medium){
+                    min-width: auto;
+                    max-width: 100%;
+                    margin: 20px auto;
+                }
+                @include breakpoint($small){
+                    margin: 0 auto;
+                }
+                /* Top Links */
+                .menu-block-top-links {
+                    width: 100%;
+                    box-sizing: border-box;
+                    nav {
+                        ul {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            list-style: none;
+                            margin: 0;
+                            margin-bottom: 5px;
+                            padding: 0;
+                            li {
+                                display: inline-block;
+                                box-sizing: border-box;
+                                margin-right: 10px;
+                                margin-bottom: 0;
+                                a {
+                                    color: $white;
+                                    font-size: 14px;
+                                    svg {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        width: 14px;
+                                        height: auto;
+                                    }
+                                    .support-icon {
+                                        fill:$white;
+                                    }
+                                    span {
+                                        display: inline-block;
+                                        vertical-align: middle;
+                                        margin-left: 5px;
+                                        white-space: nowrap;
+                                    }
+                                }
+                            }
+                            @include breakpoint($mobile){
+                                flex-wrap: wrap;
+                                padding-top: 10px;
+                                li {
+                                    width: 50%;
+                                    margin: 0;
+                                    padding: 2.5px 0;
+                                    text-align: center;
+                                    a {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                /* Payment Methods */
+                .menu-block-payment-methods {
+                    display: block;
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 10px;
+                    background: darken($blue, 05);
+                    border-radius: 3px;
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        li {
+                            width: 60px;
+                            max-width: 100%;
+                            margin-right: 10px;
+                            svg {
+                                display: block;
+                                width: 100%;
+                                height: 100%;                            }
+                            &:last-of-type {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+                /* Small Breakpoint */
+                @include breakpoint($small){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

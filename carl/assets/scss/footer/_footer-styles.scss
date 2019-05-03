@@ -1,0 +1,27 @@
+.footer {
+    padding-top: 20px;
+    background:$blue;
+    /* Container */
+    .container {
+        display: block;
+        box-sizing: border-box;
+        width: 1280px;
+        max-width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+        @include breakpoint($mobile){
+            padding: 0!important;
+        }
+    }
+    @include breakpoint($small){
+        padding-top: 0;
+        border-top: 1px solid darken($blue, 05);
+
+    }
+    /* Import Footer Bottom Styles */
+    @import "parts/footer-bottom";
+    /* Import Footer Navigation Styles */
+    @import "parts/footer-navigation";
+}
+/* Import Scroll to Top Button Styles */
+@import "parts/scroll-to-top-button";

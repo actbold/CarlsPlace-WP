@@ -1,0 +1,139 @@
+/* Screen Builder Banner */
+.screen-builder-banner {
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    min-height: 500px;
+    padding: 20px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    .container {
+        padding: 0;
+    }
+    .headline {
+        position: relative;
+        text-align:center;
+        text-transform: uppercase;
+        width: 100%;
+        margin-bottom: 20px;
+        z-index: 100;
+        h1 {
+            color:$white;
+        }
+    }
+    .builder-description {
+        position: relative;
+        text-align:center;
+        width: 100%;
+        margin-bottom: 20px;
+        z-index: 100;
+        p {
+            color:$white;
+        }
+    }
+    /* Builder Links */
+    .builder-links {
+        position:relative;
+        z-index: 100;
+        width: 100%;
+        nav {
+            ul {
+                display:flex;
+                flex-wrap:wrap;
+                justify-content: center;
+                align-items:stretch;
+                width: 100%;
+                list-style:none;
+                margin: 0;
+                padding: 0;
+                @include breakpoint($mobile){
+                    justify-content: space-between;
+                }
+                li {
+                    box-sizing: border-box;
+                    margin: 5px;
+                    @include breakpoint($mobile){
+                        width: 49%;
+                        margin: 5px 0;
+                    }
+                    a {
+                        display:flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        box-sizing:border-box;
+                        padding: 10px;
+                        text-decoration:none;
+                        @include transparent-bg($dark, 0.8);
+                        border-radius: 5px;
+                        width: 175px;
+                        min-width: 175px;
+                        min-height: 175px;
+                        max-width: 100%;
+                        transition: background 0.33s ease;
+                        transition: box-shadow 0.33s ease;
+                        @include boxShadow(2);
+                        @include breakpoint($mobile){
+                            min-width: 160px;
+                            min-height: 160px;
+                            span {
+                                font-size: 18px;
+                            }
+                        }
+                        .icon {
+                            display:block;
+                            width: 100%;
+                            height: 55px;
+                            margin: 5px 0;
+                            svg {
+                                display:block;
+                                width: 100%;
+                                height: auto;
+                                max-height: 100%;
+                                max-width: 100%;
+                                fill:$white;
+                                transition: fill 0.33s ease;
+                            }
+                        }
+                        span {
+                            text-transform: uppercase;
+                            display:block;
+                            color:$white;
+                            font-weight: 300;
+                            font-size: 20px;
+                            transition: color 0.33s ease;
+
+                        }
+                        &:hover {
+                            background:$white;
+                            .icon {
+                                svg {fill:$blue2;}
+                            }
+                            span {
+                                color:$blue2;
+                            }
+                            @include boxShadow(3);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Background Mask */
+    &:after {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: darken($blue, 25);
+        opacity: 0.7;
+    }
+}

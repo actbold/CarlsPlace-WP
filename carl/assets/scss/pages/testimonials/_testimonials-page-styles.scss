@@ -1,0 +1,9 @@
+.page-template-page-testimonials {
+    &.testimonials {
+        padding:0;
+        background:$white;
+    }
+    /* Import Hero Styles */
+    @import "parts/hero";
+    
+}
