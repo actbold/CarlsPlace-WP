@@ -11,6 +11,8 @@
 <?php 
 $post = get_post();
 $nextLink =getNextTestimonial($post->ID);
+
+var_dump($nextLink);
 ?>
 
 <!-- Article info start -->
