@@ -19,6 +19,11 @@
 					<div class="name"><?php the_author(); ?></div>
 					<div class="date"><?php the_date('M d, Y'); ?></div>
 				</div>
+
+				<div class="name-date d-flex justify-content-center">
+					<div class="name" style="text-transform: uppercase;"><?= get_post_meta(get_the_ID(), 'testimonial_client_and_location', true) ?></div>
+				</div>
+
 			</div>
 		</div>
 	</div>
@@ -56,4 +61,8 @@
 	</div>
 </section>
 <!-- Article content end -->
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 
