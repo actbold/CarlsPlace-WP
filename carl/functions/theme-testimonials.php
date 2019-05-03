@@ -102,4 +102,26 @@ function testimonial_tag() {
 
 }
 add_action( 'init', 'testimonial_tag', 1 );
+
+
+
+function getNextTestimonial($currentPost)
+{
+	global $wpdb;
+
+	$sql = "SELECT * 
+	        FROM carlstage.wp_posts
+	        WHERE post_type = 'testimonial' and ID > %d
+	        ORDER BY ID
+			LIMIT 1";
+			
+	$next = $wpdb->get_row($wpdb->prepare($sql, $currentPost));
+
+	if (empty($next)) {
+		return '';
+	}
+
+
+	return get_permalink($next->ID);
+}
 ?>

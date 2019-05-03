@@ -8,8 +8,22 @@
 </section>
 <!-- Banner article end -->
 
+<?php 
+$post = get_post();
+$nextLink =getNextTestimonial($post->ID);
+?>
+
 <!-- Article info start -->
 <section class="article-info">
+   <?php 
+   if (!empty($nextLink)) {
+	   ?>
+		<div class="next-testimonial">
+   		   <a href="<?= $nextLink ?>" class="next-testimonial-button">Next Testimonial</a>
+		</div>
+	   <?php
+   }
+   ?> 
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-xl-8">
@@ -57,5 +71,24 @@
 
 </section>
 <!-- Article content end -->
+
+
+<style>
+.article-info .next-testimonial {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.article-info .next-testimonial-button {
+  color: #116AC0;	
+  outline: 1px solid #116AC0;
+  padding: 10px;
+  text-decoration: none;  
+}
+
+.article-info .next-testimonial-button:hover {
+  text-decoration: underline;
+}
+</style>
 
 
