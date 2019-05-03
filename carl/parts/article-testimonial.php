@@ -14,11 +14,7 @@
 		<div class="row justify-content-center">
 			<div class="col-12 col-xl-8">
 				<div class="title"><?= $PrimaryCategory; ?></div>
-				<h1><?php the_title(); ?></h1>
-				<div class="name-date d-flex justify-content-center">
-					<div class="name"><?php the_author(); ?></div>
-					<div class="date"><?php the_date('M d, Y'); ?></div>
-				</div>
+				<h1><?php the_content(); ?></h1>
 
 				<div class="name-date d-flex justify-content-center">
 					<div class="name" style="text-transform: uppercase;"><?= get_post_meta(get_the_ID(), 'testimonial_client_and_location', true) ?></div>
@@ -34,7 +30,6 @@
 <section class="article-content">
 	<div class="container article-block">
 		<div class="row justify-content-center">
-			<?php the_content(); ?>
 			<div class="col-12 col-xl-10">
 				<?php $galleryIDs = get_post_meta(get_the_ID(), 'testimonial_image_gallery');
 				$images = [get_the_post_thumbnail_url(get_the_ID(),'full')];
