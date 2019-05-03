@@ -89,6 +89,10 @@ $nextLink =getNextTestimonial($post->ID);
 .article-info .next-testimonial-button:hover {
   text-decoration: underline;
 }
+
+.slick-slide {
+	height: auto !important;
+}
 </style>
 
 
