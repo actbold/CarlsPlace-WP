@@ -110,7 +110,7 @@ function getNextTestimonial($currentPost)
 	global $wpdb;
 
 	$sql = "SELECT * 
-	        FROM carlstage.wp_posts
+	        FROM wp_posts
 	        WHERE post_type = 'testimonial' and ID > %d
 	        ORDER BY ID
 			LIMIT 1";
