@@ -10,12 +10,7 @@
 
 <?php 
 $post = get_post();
-
-var_dump($post->ID);
-
 $nextLink =getNextTestimonial($post->ID);
-
-var_dump($nextLink);
 ?>
 
 <!-- Article info start -->
