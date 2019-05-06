@@ -7,3 +7,46 @@
     @import "parts/hero";
     
 }
+
+.testimonial-template-default {
+  .article-info {
+    .back-testimonial {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+
+      &-button {
+        color: #116AC0;	
+        outline: 1px solid #116AC0;
+        padding: 10px;
+        text-decoration: none;      
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+    }
+    .next-testimonial {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      &-button {
+        color: #116AC0;	
+        outline: 1px solid #116AC0;
+        padding: 10px;
+        text-decoration: none;      
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .slick-slide {
+    height: auto !important;
+  }
+  
+}

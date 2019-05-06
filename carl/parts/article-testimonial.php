@@ -15,6 +15,10 @@ $nextLink =getNextTestimonial($post->ID);
 
 <!-- Article info start -->
 <section class="article-info">
+<div class="back-testimonial">
+   		   <a href="/testimonials" class="next-testimonial-button">Back to Testimonials</a>
+		</div>
+	 
    <?php 
    if (!empty($nextLink)) {
 	   ?>
@@ -71,28 +75,5 @@ $nextLink =getNextTestimonial($post->ID);
 
 </section>
 <!-- Article content end -->
-
-
-<style>
-.article-info .next-testimonial {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-.article-info .next-testimonial-button {
-  color: #116AC0;	
-  outline: 1px solid #116AC0;
-  padding: 10px;
-  text-decoration: none;  
-}
-
-.article-info .next-testimonial-button:hover {
-  text-decoration: underline;
-}
-
-.slick-slide {
-	height: auto !important;
-}
-</style>
 
 
