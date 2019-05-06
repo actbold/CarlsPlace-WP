@@ -11,13 +11,21 @@
 <?php 
 $post = get_post();
 $nextLink =getNextTestimonial($post->ID);
+$previousLink = getPreviousTestimonial($post->ID);
+
 ?>
 
 <!-- Article info start -->
 <section class="article-info">
-<div class="back-testimonial">
-   		   <a href="/testimonials" class="next-testimonial-button">Back to Testimonials</a>
+<?php 
+   if (!empty($previousLink)) {
+	   ?>
+		<div class="previous-testimonial">
+   		   <a href="<?= $previousLink ?>" class="previous-testimonial-button">Previous Testimonial</a>
 		</div>
+	   <?php
+   }
+   ?> 
 	 
    <?php 
    if (!empty($nextLink)) {

@@ -112,9 +112,9 @@ function getNextTestimonial($currentPost)
 	$sql = "SELECT * 
 	        FROM wp_posts
 	        WHERE post_type = 'testimonial' and ID > %d
-	        ORDER BY ID
+	        ORDER BY ID 
 			LIMIT 1";
-			
+	
 	$next = $wpdb->get_row($wpdb->prepare($sql, $currentPost));
 
 	if (empty($next)) {
@@ -124,4 +124,25 @@ function getNextTestimonial($currentPost)
 
 	return get_permalink($next->ID);
 }
+
+function getPreviousTestimonial($currentPost)
+{
+	global $wpdb;
+
+	$sql = "SELECT * 
+	        FROM wp_posts
+	        WHERE post_type = 'testimonial' and ID < %d
+	        ORDER BY ID desc
+			LIMIT 1";
+	
+	$previous = $wpdb->get_row($wpdb->prepare($sql, $currentPost));
+
+	if (empty($previous)) {
+		return '';
+	}
+
+
+	return get_permalink($previous->ID);
+}
+
 ?>
