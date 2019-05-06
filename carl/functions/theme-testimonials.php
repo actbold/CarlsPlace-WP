@@ -112,6 +112,7 @@ function getNextTestimonial($currentPost)
 	$sql = "SELECT * 
 	        FROM wp_posts
 	        WHERE post_type = 'testimonial' and ID > %d
+			and post_status = 'publish'
 	        ORDER BY ID 
 			LIMIT 1";
 	
@@ -120,7 +121,6 @@ function getNextTestimonial($currentPost)
 	if (empty($next)) {
 		return '';
 	}
-
 
 	return get_permalink($next->ID);
 }
@@ -132,6 +132,7 @@ function getPreviousTestimonial($currentPost)
 	$sql = "SELECT * 
 	        FROM wp_posts
 	        WHERE post_type = 'testimonial' and ID < %d
+			and post_status = 'publish'
 	        ORDER BY ID desc
 			LIMIT 1";
 	
