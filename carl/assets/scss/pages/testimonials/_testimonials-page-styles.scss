@@ -10,40 +10,49 @@
 
 .testimonial-template-default {
   .article-info {
-    .previous-testimonial {
+    .previous-testimonial, .next-testimonial {
       position: absolute;
-      top: 20px;
-      left: 20px;
+      top: 20px;      
 
+      @media (max-width: 767.98px) {
+        top: 10px;            
+      }      
       &-button {
         color: #116AC0;	
         outline: 1px solid #116AC0;
-        padding: 10px;
+        padding: 8px 10px;
         text-decoration: none;      
+
+        @media (max-width: 767.98px) {
+          font-size: 16px;
+          padding: 5px 10px;
+        }      
+  
 
         &:hover {
           text-decoration: underline;
         }
       }
+
+    }
+
+    .previous-testimonial {
+      left: 20px;
 
     }
     .next-testimonial {
-      position: absolute;
-      top: 20px;
       right: 20px;
-
-      &-button {
-        color: #116AC0;	
-        outline: 1px solid #116AC0;
-        padding: 10px;
-        text-decoration: none;      
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
     }
   }
+
+  h1 {
+    p {
+      @media (max-width: 767.98px) {
+        font-size: 26px;
+      }          
+    }
+  }
+
 
   .slick-slide {
     height: auto !important;
