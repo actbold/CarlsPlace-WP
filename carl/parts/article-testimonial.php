@@ -3,9 +3,9 @@
 	$PrimaryCategory = $category[0]->cat_name;
 ?>
 <!-- Banner article start -->
-<section class="banners banner-article">
+<!--<section class="banners banner-article">
 
-</section>
+</section>-->
 <!-- Banner article end -->
 
 <?php 
