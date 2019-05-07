@@ -73,7 +73,7 @@
             <div class="container">
                 <div class="row product-tales">
                     <?php foreach($helpfulArticles as $article): ?>
-                        <div class="col-12 col-sm-6 item col-lg-3 px-2">
+                        <div class="col-sm-6 item col-lg-3 px-2">
                             <div class="card">
                                 <div class="img-container">
                                     <a href="<?= $article['link']; ?>" title="<?= $article['title']; ?>"><img class="card-img-top" src="<?= $article['image']; ?>" alt="<?= $article['title']; ?>"></a>
