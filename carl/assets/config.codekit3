@@ -7,7 +7,7 @@
 		"uuidString": "A3C640FD-DBC9-4AB8-A73C-375CE347BE8D"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/css/admin-min.css": {
 		"aP": 1,
@@ -79,6 +79,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/css/main2.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/main2.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/mains.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -92,6 +102,7 @@
 	"/fonts/font-awesome/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/font-awesome/fontawesome-webfont.eot",
 		"oF": 0
@@ -109,6 +120,7 @@
 	"/fonts/font-awesome/fontawesome-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/font-awesome/fontawesome-webfont.ttf",
 		"oF": 0
@@ -116,6 +128,7 @@
 	"/fonts/font-awesome/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/font-awesome/fontawesome-webfont.woff",
 		"oF": 0
@@ -123,6 +136,7 @@
 	"/fonts/font-awesome/fontawesome-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/font-awesome/fontawesome-webfont.woff2",
 		"oF": 0
@@ -130,6 +144,7 @@
 	"/fonts/font-awesome/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/font-awesome/FontAwesome.otf",
 		"oF": 0
@@ -137,6 +152,7 @@
 	"/fonts/RobotoBold/RobotoBold.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoBold/RobotoBold.eot",
 		"oF": 0
@@ -144,6 +160,7 @@
 	"/fonts/RobotoBold/RobotoBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoBold/RobotoBold.ttf",
 		"oF": 0
@@ -151,6 +168,7 @@
 	"/fonts/RobotoBold/RobotoBold.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoBold/RobotoBold.woff",
 		"oF": 0
@@ -158,6 +176,7 @@
 	"/fonts/RobotoRegular/RobotoRegular.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoRegular/RobotoRegular.eot",
 		"oF": 0
@@ -165,6 +184,7 @@
 	"/fonts/RobotoRegular/RobotoRegular.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoRegular/RobotoRegular.ttf",
 		"oF": 0
@@ -172,6 +192,7 @@
 	"/fonts/RobotoRegular/RobotoRegular.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/RobotoRegular/RobotoRegular.woff",
 		"oF": 0
@@ -179,6 +200,7 @@
 	"/fonts/SourceSansProBold/SourceSansProBold.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProBold/SourceSansProBold.eot",
 		"oF": 0
@@ -186,6 +208,7 @@
 	"/fonts/SourceSansProBold/SourceSansProBold.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProBold/SourceSansProBold.ttf",
 		"oF": 0
@@ -193,6 +216,7 @@
 	"/fonts/SourceSansProBold/SourceSansProBold.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProBold/SourceSansProBold.woff",
 		"oF": 0
@@ -200,6 +224,7 @@
 	"/fonts/SourceSansProLight/SourceSansProLight.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProLight/SourceSansProLight.eot",
 		"oF": 0
@@ -207,6 +232,7 @@
 	"/fonts/SourceSansProLight/SourceSansProLight.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProLight/SourceSansProLight.ttf",
 		"oF": 0
@@ -214,6 +240,7 @@
 	"/fonts/SourceSansProLight/SourceSansProLight.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProLight/SourceSansProLight.woff",
 		"oF": 0
@@ -221,6 +248,7 @@
 	"/fonts/SourceSansProRegular/SourceSansProRegular.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProRegular/SourceSansProRegular.eot",
 		"oF": 0
@@ -228,6 +256,7 @@
 	"/fonts/SourceSansProRegular/SourceSansProRegular.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProRegular/SourceSansProRegular.ttf",
 		"oF": 0
@@ -235,6 +264,7 @@
 	"/fonts/SourceSansProRegular/SourceSansProRegular.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/SourceSansProRegular/SourceSansProRegular.woff",
 		"oF": 0
@@ -759,6 +789,7 @@
 	"/img/favicon/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/img/favicon/favicon.ico",
 		"oF": 0
@@ -878,6 +909,17 @@
 		"iS": 1140,
 		"oA": 0,
 		"oAP": "/img/home/backyard-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/home/banner.old.png": {
+		"ft": 32768,
+		"iS": 548567,
+		"oA": 0,
+		"oAP": "/img/home/banner.old.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1545,6 +1587,7 @@
 		"q": 100
 		},
 	"/js/homepage/homepage-functions-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1555,6 +1598,7 @@
 		"tS": 0
 		},
 	"/js/homepage/homepage-functions.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1565,6 +1609,7 @@
 		"tS": 0
 		},
 	"/js/homepage/homepage-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1575,6 +1620,7 @@
 		"tS": 0
 		},
 	"/js/homepage/homepage.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1585,6 +1631,7 @@
 		"tS": 0
 		},
 	"/js/min/header.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1594,7 +1641,19 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/js/min/jssor.slider.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/min/jssor.slider.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/js/min/scripts.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1607,11 +1666,13 @@
 	"/js/min/scripts.min.js.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/js/min/scripts.min.js.map",
 		"oF": 0
 		},
 	"/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
@@ -1621,7 +1682,160 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/js/slick/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "/js/slick/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/js/slick/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/slick/config.rb",
+		"oF": 0
+		},
+	"/js/slick/fonts/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/slick/fonts/slick.eot",
+		"oF": 0
+		},
+	"/js/slick/fonts/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/js/slick/fonts/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/js/slick/fonts/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/slick/fonts/slick.ttf",
+		"oF": 0
+		},
+	"/js/slick/fonts/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/js/slick/fonts/slick.woff",
+		"oF": 0
+		},
+	"/js/slick/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/js/slick/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/js/slick/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/js/slick/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/js/slick/slick.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/slick/slick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/slick/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
+	"/js/slick/slick.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/slick/slick.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/slick/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/js/slick/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/js/vendor/blazy.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1632,6 +1846,7 @@
 		"tS": 0
 		},
 	"/js/vendor/bootstrap.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1642,6 +1857,7 @@
 		"tS": 0
 		},
 	"/js/vendor/common.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1652,6 +1868,7 @@
 		"tS": 0
 		},
 	"/js/vendor/js.cookie.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1662,6 +1879,7 @@
 		"tS": 0
 		},
 	"/js/vendor/libs.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1672,6 +1890,7 @@
 		"tS": 0
 		},
 	"/js/vendor/moment-duration-format.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1682,6 +1901,7 @@
 		"tS": 0
 		},
 	"/js/vendor/moment.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1692,6 +1912,7 @@
 		"tS": 0
 		},
 	"/js/vendor/slick.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1702,6 +1923,7 @@
 		"tS": 0
 		},
 	"/js/vendor/tether.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2001,6 +2223,7 @@
 	"/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.eot",
 		"oF": 0
@@ -2018,6 +2241,7 @@
 	"/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf",
 		"oF": 0
@@ -2025,6 +2249,7 @@
 	"/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.woff",
 		"oF": 0
@@ -2032,6 +2257,7 @@
 	"/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2",
 		"oF": 0
@@ -2039,6 +2265,7 @@
 	"/scss/libs/font-awesome-4.7.0/fonts/FontAwesome.otf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/fonts/FontAwesome.otf",
 		"oF": 0
@@ -2046,6 +2273,7 @@
 	"/scss/libs/font-awesome-4.7.0/HELP-US-OUT.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/HELP-US-OUT.txt",
 		"oF": 0
@@ -2131,6 +2359,7 @@
 	"/scss/libs/font-awesome-4.7.0/less/font-awesome.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/font-awesome-4.7.0/less/font-awesome.css.map",
 		"oF": 0
@@ -2498,6 +2727,7 @@
 		"uL": 1
 		},
 	"/scss/libs/html5shiv/es5-shim.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2508,6 +2738,7 @@
 		"tS": 0
 		},
 	"/scss/libs/html5shiv/es5-shim.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2518,6 +2749,7 @@
 		"tS": 0
 		},
 	"/scss/libs/html5shiv/html5shiv-printshiv.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2528,6 +2760,7 @@
 		"tS": 0
 		},
 	"/scss/libs/html5shiv/html5shiv-printshiv.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2538,6 +2771,7 @@
 		"tS": 0
 		},
 	"/scss/libs/html5shiv/html5shiv.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2548,6 +2782,7 @@
 		"tS": 0
 		},
 	"/scss/libs/html5shiv/html5shiv.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2574,6 +2809,7 @@
 		"oS": 1
 		},
 	"/scss/libs/jquery-equalheights/jquery.equalheights-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2584,6 +2820,7 @@
 		"tS": 0
 		},
 	"/scss/libs/jquery-equalheights/jquery.equalheights.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2594,6 +2831,7 @@
 		"tS": 0
 		},
 	"/scss/libs/jquery-equalheights/jquery.equalheights.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2604,6 +2842,7 @@
 		"tS": 0
 		},
 	"/scss/libs/jquery-equalheights/jquery.equalheights.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2616,6 +2855,7 @@
 	"/scss/libs/jquery-equalheights/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/jquery-equalheights/LICENSE",
 		"oF": 0
@@ -2631,6 +2871,7 @@
 	"/scss/libs/jquery-equalheights/README.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/jquery-equalheights/README.html",
 		"oF": 0
@@ -2643,6 +2884,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/jquery-equalheights/README.html",
 		"oF": 0,
@@ -2654,6 +2896,7 @@
 		"uCM": 0
 		},
 	"/scss/libs/jquery/dist/jquery.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2664,6 +2907,7 @@
 		"tS": 0
 		},
 	"/scss/libs/jquery/dist/jquery.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2674,6 +2918,7 @@
 		"tS": 0
 		},
 	"/scss/libs/modernizr/modernizr-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2684,6 +2929,7 @@
 		"tS": 0
 		},
 	"/scss/libs/modernizr/modernizr.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2694,6 +2940,7 @@
 		"tS": 0
 		},
 	"/scss/libs/plugins-scroll/plugins-scroll-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2704,6 +2951,7 @@
 		"tS": 0
 		},
 	"/scss/libs/plugins-scroll/plugins-scroll.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2714,6 +2962,7 @@
 		"tS": 0
 		},
 	"/scss/libs/respond/respond.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2724,6 +2973,7 @@
 		"tS": 0
 		},
 	"/scss/libs/respond/respond.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2760,6 +3010,7 @@
 	"/scss/libs/slick-carousel/CONTRIBUTING.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/CONTRIBUTING.markdown",
 		"oF": 0
@@ -2767,6 +3018,7 @@
 	"/scss/libs/slick-carousel/ISSUE_TEMPLATE.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/ISSUE_TEMPLATE.html",
 		"oF": 0
@@ -2779,6 +3031,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/ISSUE_TEMPLATE.html",
 		"oF": 0,
@@ -2792,6 +3045,7 @@
 	"/scss/libs/slick-carousel/LICENSE": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/LICENSE",
 		"oF": 0
@@ -2799,6 +3053,7 @@
 	"/scss/libs/slick-carousel/Makefile": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/Makefile",
 		"oF": 0
@@ -2806,6 +3061,7 @@
 	"/scss/libs/slick-carousel/README.markdown": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/README.markdown",
 		"oF": 0
@@ -2829,6 +3085,7 @@
 	"/scss/libs/slick-carousel/slick/config.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/config.rb",
 		"oF": 0
@@ -2836,6 +3093,7 @@
 	"/scss/libs/slick-carousel/slick/fonts/slick.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/fonts/slick.eot",
 		"oF": 0
@@ -2853,6 +3111,7 @@
 	"/scss/libs/slick-carousel/slick/fonts/slick.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/fonts/slick.ttf",
 		"oF": 0
@@ -2860,6 +3119,7 @@
 	"/scss/libs/slick-carousel/slick/fonts/slick.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/fonts/slick.woff",
 		"oF": 0
@@ -2885,6 +3145,7 @@
 		"oS": 3
 		},
 	"/scss/libs/slick-carousel/slick/slick-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2907,6 +3168,7 @@
 	"/scss/libs/slick-carousel/slick/slick-theme.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/slick-theme.css.map",
 		"oF": 0
@@ -2954,11 +3216,13 @@
 	"/scss/libs/slick-carousel/slick/slick.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/libs/slick-carousel/slick/slick.css.map",
 		"oF": 0
 		},
 	"/scss/libs/slick-carousel/slick/slick.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2986,6 +3250,7 @@
 		"sU": 0
 		},
 	"/scss/libs/slick-carousel/slick/slick.min-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2996,6 +3261,7 @@
 		"tS": 0
 		},
 	"/scss/libs/slick-carousel/slick/slick.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4604,6 +4870,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -4623,6 +4895,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -4673,6 +4975,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -4706,10 +5011,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -5658,6 +5969,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -6320,6 +6635,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -6341,6 +6657,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 3,
@@ -6363,7 +6680,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -6402,6 +6720,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -6411,7 +6730,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -6432,7 +6752,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -6461,7 +6782,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -6549,16 +6871,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -6577,7 +6903,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6600,6 +6926,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -6625,10 +6955,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -6637,13 +6963,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -6655,6 +6981,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -6677,13 +7007,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -6692,10 +7022,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -6719,6 +7045,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -6753,6 +7083,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -6762,6 +7096,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6789,15 +7127,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
