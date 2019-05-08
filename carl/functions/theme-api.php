@@ -1,12 +1,28 @@
 <?php
 function getHighlightsArticles(WP_REST_Request $request) {
+    $params = $request->get_params();
+   
 // WP_Query arguments
 $args = array (
-     'post_type'              => 'how_to_article',
-    'posts_per_page'         => 2,
-//    'category_name'          => 'home-theater',
-
-);
+            'post_type'              =>  'any',
+            'posts_per_page'         => 2,
+            'post_status' => 'publish',
+            'tax_query' => array(
+                array(
+                    'taxonomy' => 'post_tag',
+                    'field' => 'slug',
+                    'terms'     => $params['category']
+                ),
+                array(
+                    'taxonomy' => 'post_format',
+                    'field' => 'slug',
+                    'terms' => array('post-format-aside', 'post-format-gallery', 'post-format-link', 
+                                     'post-format-image', 'post-format-quote', 'post-format-status', 'post-format-audio', 'post-format-chat', 'post-format-video'),
+                    'operator' => 'NOT IN'
+                   )
+            ),
+            'orderby'=>'rand'
+        );
 // The Query
 $featured_articles = array();
 $the_query = new WP_Query( $args );
