@@ -1,10 +1,21 @@
-<section class="main-banner">
+<?php if( have_rows('banner_slides') ): ?>
+	<?php $iterator = 1;
+	 while( have_rows('banner_slides') ): the_row();
+		if($iterator == 1){
+			$bg = get_sub_field("image"); 
+			$content = get_sub_field("content");
+			$icon = get_sub_field('icon');
+			$title = get_sub_field('title');
+		}
+		$iterator++;
+	endwhile;
+endif;
+	?>
+<section class="main-banner" style="background-image: url('<?= $bg['url']; ?>')">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div id="banner-content" class="col">
-				<h1>YOUR LEADING HOME THEATER  </h1><h1><span>PROJECTOR SCREENS</span></h1>
-				<p>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-				<a class="btn btn-primary btn-lg" href="/shop/home-theater-builder" role="button">SHOP HOME THEATER SCREENS</a>
+				<?= $content; ?>
 			</div>
 		</div>
 	</div>
