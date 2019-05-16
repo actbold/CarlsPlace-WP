@@ -68,15 +68,22 @@
             endwhile;
         endif;
         ?>
+        <style>
+            .container-resource{width:100%;}
+            .product-tales{ display:flex; flex-wrap:wrap; align-items:flex-start;}
+            .product-tales .single-resource{ width:25%; position:relative;}
+            .product-tales .single-resource a.card-img{ position:relative; height:0; width:100%; display:block; padding-top:64%;}
+            .product-tales .single-resource a.card-img img{ display:none;}
+        </style>
         <section class="system-res">
             <h2>HELPFUL RESOURCES</h2>
-            <div class="container">
-                <div class="row product-tales">
+            <div class="container-resource">
+                <div class="product-tales">
                     <?php foreach($helpfulArticles as $article): ?>
-                        <div class="col-sm-6 item col-lg-3 px-2">
+                        <div class="single-resource">
                             <div class="card">
                                 <div class="img-container">
-                                    <a href="<?= $article['link']; ?>" title="<?= $article['title']; ?>"><img class="card-img-top" src="<?= $article['image']; ?>" alt="<?= $article['title']; ?>"></a>
+                                    <a href="<?= $article['link']; ?>" title="<?= $article['title']; ?>" style="background-image:url(<?= $article['image']; ?>);"><img class="card-img-top" src="<?= $article['image']; ?>" alt="<?= $article['title']; ?>"></a>
                                 </div>
                                 <div class="card-block">
                                     <h4 class="card-title"><?= $article['title']; ?></h4>
