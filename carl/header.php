@@ -91,19 +91,6 @@
                 background-color: #39485b !important;
                 color: #fff !important;
             }
-
-            .page-template #scroll-to-top {
-                opacity: 1;
-                border-radius: 50%;
-                cursor: pointer;
-            }
-
-            .page-template #scroll-to-top svg {
-                margin-right: 0;
-                transform: scale(1.7);
-            }
-
-
         </style>
 	</head>
 <body <?php body_class(); ?>>
