@@ -69,18 +69,18 @@
         endif;
         ?>
         <style>
-            .product-tales .single-resource a.card-img{ position:relative; height:0; width:100%; display:block; padding-top:64%;}
-            .product-tales .single-resource a.card-img img{ display:none;} 
+            .product-tales .img-container a.card-a{ position:relative; height:0; width:100%; display:block; padding-top:64%;}
+            .product-tales .img-container a.card-a img{ display:none;} 
         </style>
         <section class="system-res">
             <h2>HELPFUL RESOURCES</h2>
-            <div class="container">
+            <div class="container ">
                 <div class="row product-tales">
                     <?php foreach($helpfulArticles as $article): ?>
                         <div class="col-sm-6 item col-lg-3 px-2">
                             <div class="card">
                                 <div class="img-container">
-                                    <a href="<?= $article['link']; ?>" class="card-img" title="<?= $article['title']; ?>" style="background-image:url(<?= $article['image']; ?>)"><img class="card-img-top" src="<?= $article['image']; ?>" alt="<?= $article['title']; ?>"></a>
+                                    <a href="<?= $article['link']; ?>" class="card-a" title="<?= $article['title']; ?>" style="background-image:url(<?= $article['image']; ?>)"><img class="card-img-top" src="<?= $article['image']; ?>" alt="<?= $article['title']; ?>"></a>
                                 </div>
                                 <div class="card-block">
                                     <h4 class="card-title"><?= $article['title']; ?></h4>
