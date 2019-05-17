@@ -69,7 +69,7 @@
         endif;
         ?>
         <style>
-            .product-tales .img-container a.card-a{ position:relative; height:0; width:100%; display:block; padding-top:64%;}
+            .product-tales .img-container a.card-a{ position:relative; height:0; width:100%; display:block; padding-top:64%; background-size:cover; background-position:center;}
             .product-tales .img-container a.card-a img{ display:none;} 
         </style>
         <section class="system-res">
