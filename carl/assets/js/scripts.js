@@ -281,6 +281,7 @@ var NextSlide = $(Slides).eq(++Counter % SlideCount),
     $(this).text(function(i, v){
       return v === 'Read more' ? 'Read less' : 'Read more';
     });
+    return false;
   });
 
 
