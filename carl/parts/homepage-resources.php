@@ -46,7 +46,7 @@
 					<div class="col-3 px-2">
 						<div class="card">
 							<div class="img-container">
-								<a href="#"><img class="card-img-top" src="<?= $image; ?>" alt="Card image cap"></a>
+								<a href="#" class="img-a-c" style="background-image:url(<?= $image; ?>)"><img class="card-img-top" src="<?= $image; ?>" alt="Card image cap"></a>
 							</div>
 							<div class="card-block">
 								<h4 class="card-title"><?= $title; ?></h4>

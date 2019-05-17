@@ -1,7 +1,9 @@
+//sass --watch --no-source-map assets/scss/_setup.scss assets/css/main.min.css -s compressed
+
 //CHARSET UTF-8
 @charset "utf-8";
 
-@import "bourbon";
+/*@import "bourbon";*/
 @import "variables/variables";
 @import "mixins/mixins";
 

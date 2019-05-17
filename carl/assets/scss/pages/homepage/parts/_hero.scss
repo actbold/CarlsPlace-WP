@@ -15,8 +15,9 @@
       line-height: 1.25;
       padding: 0;
       margin: 0;
+      font-weight: 300;
       span {
-        font-family: 'Source Sans Pro', sans-serif; font-weight:400;
+        font-family: 'Source Sans Pro', sans-serif; font-weight:700;
       }
     }
   
@@ -268,3 +269,41 @@
     }
   }
   
+
+  .resource .product-tales{
+    margin-top: 124px;
+    @media(max-width:639px){
+      margin-top: 93px;
+    }
+    @media(max-width:454px){
+      margin-top:10px;
+    }
+  }
+
+  .product-tales .card .img-container .img-a-c{
+    position: relative;
+    display: block;
+    width:100%;
+    height:0;
+    padding-top:192px;
+    background-position:center;
+    background-size:cover; 
+    @media(max-width:1199px){
+      padding-top:179px;
+    }
+    @media(max-width:639px){
+      padding-top:126px;
+    }
+    @media(max-width:454px){
+      padding-top:209px;
+    }
+    img{
+      display:none;
+    }
+  }
+
+  .resource{
+    @media(max-width:639px){
+      background-position: center -100px;
+    }
+  }

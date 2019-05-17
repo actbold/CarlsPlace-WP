@@ -3,4 +3,22 @@
     /* Import Hero Styles */
     @import "parts/hero";
     
+
+    .product-tales {
+        .img-container a.card-a{ 
+            position:relative; 
+            height:0; 
+            width:100%; 
+            display:block; 
+            padding-top:64%; 
+            background-size:cover; 
+            background-position:center;
+            img{ 
+                display:none;
+            } 
+        }
+        .card{
+            height:100%;
+        }
+    }
 }
