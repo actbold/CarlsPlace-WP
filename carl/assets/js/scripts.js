@@ -276,5 +276,12 @@ var NextSlide = $(Slides).eq(++Counter % SlideCount),
 			$(this).find('.descr').css("top", "-100%");
 	})
 				
+  $('.readmore-testimonial').click(function(){
+    $(this).prev('.more-text-testimonial').slideToggle('fast');
+    $(this).text(function(i, v){
+      return v === 'Read more' ? 'Read less' : 'Read more';
+    });
+  });
+
 
 })(jQuery);

@@ -66,6 +66,9 @@
       }          
     }
   }
+  .name-date{
+    padding-top:15px;
+  }
   .name-date .name{ 
     font-weight: bold;
   }
@@ -113,5 +116,12 @@
   .slick-slide {
     height: auto !important;
   }
-  
+
+
+  .readmore-testimonial{
+    color:#7c838c;
+  }
+  .more-text-testimonial{
+    display:none;
+  }
 }

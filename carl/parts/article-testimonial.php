@@ -40,7 +40,18 @@ $previousLink = getPreviousTestimonial($post->ID);
 		<div class="row justify-content-center">
 			<div class="col-12 col-xl-8">
 				<div class="title"><?= $PrimaryCategory; ?></div>
-				<h1><?php the_content(); ?></h1>
+
+				<?php if(get_field('testimonial_main')): ?>
+					<h1><?php the_field('testimonial_main'); ?></h1>
+					<?php if(get_field('testimonial_details')): ?>
+					<div class="more-text-testimonial">
+						<?php the_field('testimonial_details'); ?>
+					</div>
+					<a href="#" class="readmore-testimonial">Read more</a>
+					<?php endif; ?>
+				<?php else: ?>   
+					<h1><?php the_content(); ?></h1>
+				<?php endif; ?>
 
 				<div class="name-date d-flex justify-content-center">
 					<div class="name" style="text-transform: uppercase;"><?= get_post_meta(get_the_ID(), 'testimonial_client_and_location', true) ?></div>
