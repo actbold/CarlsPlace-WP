@@ -523,6 +523,7 @@
   .user-text {
     padding-left: 47px;
     padding-top: 20px;
+    color:white;
   }
 
   p {
@@ -4169,4 +4170,8 @@
 
 .step-item:nth-child(7) img {
     padding-bottom: 7px !important;
+}
+
+.grecaptcha-badge{
+  display:none !important;
 }
