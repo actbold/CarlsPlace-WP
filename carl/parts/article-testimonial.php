@@ -26,7 +26,9 @@ $previousLink = getPreviousTestimonial($post->ID);
 	   <?php
    }
    ?> 
-	 
+   <div class="all-testimonials-c">
+	<a href="/testimonials" class="all-testimonial-button">All Testimonials</a>
+	</div>
    <?php 
    if (!empty($nextLink)) {
 	   ?>
@@ -36,7 +38,7 @@ $previousLink = getPreviousTestimonial($post->ID);
 	   <?php
    }
    ?> 
-	<div class="container">
+	<div class="container testimonial-first-container">
 		<div class="row justify-content-center">
 			<div class="col-12 col-xl-8">
 				<div class="title"><?= $PrimaryCategory; ?></div>
