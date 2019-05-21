@@ -68,7 +68,7 @@
             endwhile;
         endif;
         ?>
-        <section class="system-res">
+        <section class="system-res" id="helpful-articles">
             <h2>HELPFUL RESOURCES</h2>
             <div class="container ">
                 <div class="row product-tales">
@@ -133,7 +133,7 @@
             endwhile;
         endif;
         ?>
-        <section class="help-videos">
+        <section class="help-videos" id="helpful-videos">
             <h2>HELPFUL VIDEOS</h2>
             <div class="container">
                 <div class="row d-flex align-items-center justify-content-center">
@@ -238,7 +238,7 @@
             <!-- Compare end -->
         <?php endif; ?>
         <!-- Collapse asks start -->
-        <section class="collapse-asks">
+        <section class="collapse-asks" id="frequently-asked-questions">
             <h2>FREQUENTLY ASKED QUESTIONS</h2>
 
 <!--start fix filter tabs-->
