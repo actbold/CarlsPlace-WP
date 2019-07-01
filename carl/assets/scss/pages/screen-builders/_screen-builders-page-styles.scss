@@ -59,6 +59,9 @@
                     @include breakpoint($mobile){
                         width: 49%;
                         margin: 5px 0;
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
                     }
                     a {
                         display:flex;
@@ -78,8 +81,10 @@
                         transition: box-shadow 0.33s ease;
                         @include boxShadow(2);
                         @include breakpoint($mobile){
-                            min-width: 160px;
+                            min-width: auto;
                             min-height: 160px;
+                            max-width: 175px;
+                            width: 100%;
                             span {
                                 font-size: 18px;
                             }
