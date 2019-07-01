@@ -6,6 +6,7 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/flexibility.js"></script>
 		<?php wp_head(); ?>
 			<link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Source+Sans+Pro:300,400,700" rel="stylesheet">
 <!--  changes here-->
@@ -91,10 +92,27 @@
                 background-color: #39485b !important;
                 color: #fff !important;
             }
+@media (max-width: 900px) {
+    #dropdown-navigation .menu .dropdown-sidebar ul li a {
+        padding: 2.5px 20px;
+        border-radius: 0px;
+        font-size: 24px !important;
+    }
+    #dropdown-navigation .menu .dropdown-content .menu-block .title span,
+    #dropdown-navigation .menu .dropdown-content .menu-block ul li a {
+        font-size: 26px !important;
+    }
+	
+	.page-template-page-testimonials .hero .hero-content {
+		padding-top: 46px;
+	}
+	.page-template-page-testimonials .hero {
+		height: 160px;
+	}
+}
         </style>
 	</head>
-<body <?php body_class(); ?>>
-	<?php echo m2i_get_header(); ?>
+<body <?php body_class(); ?>>	
 <header class="main-header">
 	<?php get_part("header", "top-bar"); ?>
 	<div id="header-layout" class="header-layout">
@@ -310,4 +328,5 @@ function toggleSearch() {
 	searchBox.classList.toggle('search-box--active');
 	searchToggle.classList.toggle('search-toggle--active');
 }
+
 </script>
