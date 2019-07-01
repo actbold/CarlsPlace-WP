@@ -281,7 +281,7 @@
                                                     </a>
                                                 </h5>
                                                 <div data-toggle="" class="plus"  data-parent=""  aria-expanded="" aria-controls="">
-                                                    <img src="/wp-content/themes/carl/assets/img/resources/icon-plus.png" alt="icon">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/resources/icon-plus.png" alt="icon">
                                                 </div>
 
                                             </div>
@@ -314,7 +314,7 @@
                                                     </a>
                                                 </h5>
                                                 <div data-toggle="" class="plus"  data-parent=""  aria-expanded="" aria-controls="">
-                                                    <img src="/wp-content/themes/carl/assets/img/resources/icon-plus.png" alt="icon">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/resources/icon-plus.png" alt="icon">
                                                 </div>
 
                                             </div>
@@ -347,7 +347,7 @@
                                                     </a>
                                                 </h5>
                                                 <div data-toggle="" class="plus"  data-parent=""  aria-expanded="" aria-controls="">
-                                                    <img src="/wp-content/themes/carl/assets/img/resources/icon-plus.png" alt="icon">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/resources/icon-plus.png" alt="icon">
                                                 </div>
 
                                             </div>
@@ -380,7 +380,7 @@
                                                     </a>
                                                 </h5>
                                                 <div data-toggle="" class="plus"  data-parent=""  aria-expanded="" aria-controls="">
-                                                    <img src="/wp-content/themes/carl/assets/img/resources/icon-plus.png" alt="icon">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/resources/icon-plus.png" alt="icon">
                                                 </div>
 
                                             </div>

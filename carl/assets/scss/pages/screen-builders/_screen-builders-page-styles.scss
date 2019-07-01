@@ -142,3 +142,27 @@
         opacity: 0.7;
     }
 }
+
+.page-template-page-resources {
+    .collapse-asks .container .card-header h5{
+        @media(max-width:1024px){
+        min-height: 50px;
+        height:auto;
+        width: 85%;
+        padding:10px 15px 10px 0;
+        display: flex;
+        align-items: center;
+        }
+        @media(max-width:678px){
+            width: 80%;
+        }
+    }
+    .accordion-section .plus{
+        @media(max-width:1024px){
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background: #0067b5;
+        }
+    }
+}
