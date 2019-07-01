@@ -21,8 +21,8 @@ if( !is_admin() ){
     wp_enqueue_style( 'bootstrap-styles', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
 	wp_register_style( 'font-styles', get_template_directory_uri() . '/assets/css/fonts.min.css', array('bootstrap-styles') );
     wp_enqueue_style( 'font-styles', get_template_directory_uri() . '/assets/css/fonts.min.css', array('bootstrap-styles') );
-    wp_register_style( 'main-styles', get_template_directory_uri() . '/assets/css/main.min.css', array('font-styles'), '1.2' );
-    wp_enqueue_style( 'main-styles', get_template_directory_uri() . '/assets/css/main.min.css', array('font-styles') );
+    wp_register_style( 'main-styles', get_template_directory_uri() . '/assets/css/main.min.css?t='.time(), array('font-styles') , '' );
+    wp_enqueue_style( 'main-styles', get_template_directory_uri() . '/assets/css/main.min.css?t='.time(), array('font-styles'), '' );
     wp_register_style( 'slick-styles', get_template_directory_uri() . '/assets/js/slick/slick.css');
     wp_enqueue_style( 'slick-styles', get_template_directory_uri() . '/assets/js/slick/slick.css');
        wp_register_style( 'slick-theme-styles', get_template_directory_uri() . '/assets/js/slick/slick-theme.css');
